@@ -20,7 +20,7 @@ end
 def add_language(languages, language_name, language_info_value)
   # Take languages and add the key/value pair language_name/language_info_value
   # to it, then return languages
-  languages[language_name] = language_info_value
+  languages[language_name][info_key] = info_value
   languages
 end
 
